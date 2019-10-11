@@ -1,0 +1,40 @@
+{
+    "name": "mrkatz/laarvel-stubs",
+    "description": "Laravel Stubs Editor & Generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Kaczocha",
+            "email": "adamkaczocha@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/mrkatz/laravel-stubs",
+    "keywords": [
+        "Laravel",
+        "Stubs",
+        "Generator"
+
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Mrkatz\\LaravelStubs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mrkatz\\LaravelStubs\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mrkatz\\LaravelStubs\\Providers\\ConsoleSupportServiceProvider"
+            ]
+        }
+    }
+}
